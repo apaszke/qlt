@@ -2,7 +2,7 @@ qlt
 ===
 
 Quick logging tool for node.js.
-Every datatype is provided with two new properties:
+All datatypes are provided with two new properties:
 
 * ```log``` (prints value to stdout)
 * ```logn``` (prints value and newline to stdout)
