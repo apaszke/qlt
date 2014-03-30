@@ -37,7 +37,7 @@ b.logn;
 c.log;
 d.logn;
 e.logn;
-e.print
+e.print;
 f.logn;
 ```
 
