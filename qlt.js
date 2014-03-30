@@ -23,34 +23,35 @@
  */
 
 var inspect = require('util').inspect;
+var EOL = require('os').EOL;
 
 Number.prototype.__defineGetter__('log', function() {
     process.stdout.write(this.toString());
 });
 Number.prototype.__defineGetter__('logn', function() {
-    process.stdout.write(this.toString()+'\n');
+    process.stdout.write(this.toString()+EOL);
 });
 String.prototype.__defineGetter__('log', function() {
     process.stdout.write(this.valueOf());
 });
 String.prototype.__defineGetter__('logn', function() {
-    process.stdout.write(this.valueOf()+'\n');
+    process.stdout.write(this.valueOf()+EOL);
 });
 Array.prototype.__defineGetter__('log', function() {
     process.stdout.write('['+this.toString()+']');
 });
 Array.prototype.__defineGetter__('logn', function() {
-    process.stdout.write('['+this.toString()+']\n');
+    process.stdout.write('['+this.toString()+']'+EOL);
 });
 Boolean.prototype.__defineGetter__('log', function() {
     process.stdout.write(this.toString());
 });
 Boolean.prototype.__defineGetter__('logn', function() {
-    process.stdout.write(this.toString()+'\n');
+    process.stdout.write(this.toString()+EOL);
 });
 Object.prototype.__defineGetter__('print', function() {
     process.stdout.write(inspect(this));
 });
 Object.prototype.__defineGetter__('logn', function() {
-    process.stdout.write(inspect(this)+'\n');
+    process.stdout.write(inspect(this)+EOL);
 });
