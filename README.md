@@ -48,4 +48,5 @@ Outputs:
 [1,2]true
 { a: 5, b: 6 }
 { a: 5, b: 6 }Sun Mar 30 2014 20:10:26 GMT+0200 (CEST)
+
 ```
