@@ -2,16 +2,19 @@ qlt
 ===
 
 Quick logging tool for node.js or javascript in general.
-Every datatype gets two getters:
+Every datatype is provided with two new getters:
 
 * ```log``` (print value to stdout)
 * ```logn``` (print value and newline to stdout)
 
 **Changing ```.log``` property of object prototype collides with console.log, so objects use ```.print``` instead of ```.log```**
 
-**Install**
+Install
+===
 
-```npm install qlt```
+```
+npm install qlt
+```
 
 Usage
 ===
