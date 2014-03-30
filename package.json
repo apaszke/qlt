@@ -1,0 +1,24 @@
+{
+  "name": "qlt",
+  "version": "0.0.1",
+  "description": "Quick logging tool",
+  "main": "qlt.js",
+  "scripts": {
+    "test": "echo 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wesolyromek/qlt.git"
+  },
+  "keywords": [
+    "log",
+    "quick",
+    "logger"
+  ],
+  "author": "Adam Paszke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wesolyromek/qlt/issues"
+  },
+  "homepage": "https://github.com/wesolyromek/qlt"
+}
