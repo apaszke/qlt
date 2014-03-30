@@ -2,10 +2,10 @@ qlt
 ===
 
 Quick logging tool for node.js.
-Every datatype is provided with two new getters:
+Every datatype is provided with two new properties:
 
-* ```log``` (print value to stdout)
-* ```logn``` (print value and newline to stdout)
+* ```log``` (prints value to stdout)
+* ```logn``` (prints value and newline to stdout)
 
 **Changing ```.log``` property of object prototype collides with console.log, so objects use ```.print``` instead of ```.log```**
 
