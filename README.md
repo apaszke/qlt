@@ -1,7 +1,7 @@
 qlt
 ===
 
-Quick logging tool for node.js.
+Quick and lightweight logging tool for node.js.
 All datatypes are provided with two new properties:
 
 * ```log``` (prints value to stdout)
@@ -18,6 +18,8 @@ npm install qlt
 
 Usage
 ===
+
+There's no need to assign this module to a variable. Just require it and you're good to go!
 
 ```javascript
 require('qlt');
