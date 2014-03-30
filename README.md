@@ -1,7 +1,7 @@
 qlt
 ===
 
-Quick logging tool for node.js or javascript in general.
+Quick logging tool for node.js.
 Every datatype is provided with two new getters:
 
 * ```log``` (print value to stdout)
