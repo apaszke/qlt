@@ -1,7 +1,8 @@
 qlt
 ===
 
-Quick and lightweight logging tool for node.js.
+Quick and lightweight logging tool for node.js. Free yourself from console.log!
+
 All datatypes are provided with two new properties:
 
 * ```log``` (prints value to stdout)
