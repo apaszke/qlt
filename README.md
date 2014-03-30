@@ -39,7 +39,7 @@ b.logn;
 c.log;
 d.logn;
 e.logn;
-e.print;
+e.print; //e is an object!
 f.logn;
 ```
 
