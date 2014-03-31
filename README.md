@@ -1,7 +1,7 @@
 qlt
 ===
 
-Quick and lightweight logging tool for node.js. Cleaner and faster way to display output from your app! Free yourelf from writing console.log all the time!
+Quick and lightweight logging tool for node.js. Free yourelf from writing console.log all the time!
 
 ```javascript
 var how_is_it = 'awesome';
@@ -9,6 +9,8 @@ var how_is_it = 'awesome';
 ```
 
 Wow, this is awesome!
+
+It's a cleaner and faster way to display output from your app.
 
 Great! How can i use it?
 ---
@@ -18,7 +20,7 @@ All datatypes (not only strings!) are provided with two new properties:
 * ```log``` (prints value to stdout)
 * ```logn``` (prints value and newline to stdout)
 
-**Changing ```.log``` property of object prototype collides with console.log, so objects use ```.print``` instead of ```.log```. ```.logn``` is the same for all**
+**Changing ```.log``` property of object prototype collides with console.log, so objects use ```.print``` instead of ```.log```. ```.logn``` is the same for all.**
 
 Install
 ---
