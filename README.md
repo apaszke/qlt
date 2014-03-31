@@ -10,6 +10,7 @@ var how_is_it = 'awesome';
 
 Wow, this is awesome!
 
+Great! How can i use it?
 ---
 
 All datatypes (not only strings!) are provided with two new properties:
@@ -20,14 +21,14 @@ All datatypes (not only strings!) are provided with two new properties:
 **Changing ```.log``` property of object prototype collides with console.log, so objects use ```.print``` instead of ```.log```. ```.logn``` is the same for all**
 
 Install
-===
+---
 
 ```
 npm install qlt
 ```
 
-Usage
-===
+Example
+---
 
 There's no need to assign this module to a variable. Just require it and you're good to go!
 
