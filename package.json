@@ -1,6 +1,6 @@
 {
   "name": "qlt",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Quick logging tool",
   "main": "qlt.js",
   "scripts": {
