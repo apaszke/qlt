@@ -3,17 +3,21 @@ qlt
 
 Quick and lightweight logging tool for node.js. Free yourelf from writing console.log all the time!
 
+Create output on the fly and print it with just a few keystrokes.
+
 ```javascript
 var how_is_it = 'awesome';
 ('Wow, this is ' + how_is_it).logn;
+//This produces the same
+'Wow, this is'.log; how_is_it.logn;
 ```
 
 Wow, this is awesome!
 
-It's a cleaner and faster way to display output from your app.
+It's a more convinient, cleaner and even faster (25% compared to console.log) way to display output from your app.
 
-Great! How can i use it?
----
+###Great! How can i use it?
+
 
 All datatypes (not only strings!) are provided with two new properties:
 
@@ -22,8 +26,8 @@ All datatypes (not only strings!) are provided with two new properties:
 
 **Changing ```.log``` property of object prototype collides with console.log, so objects use ```.print``` instead of ```.log```. ```.logn``` is the same for all.**
 
-Install
----
+###Install
+
 
 ```
 npm install qlt
@@ -66,3 +70,6 @@ Outputs:
 { a: 5, b: 6 }Mon Mar 31 2014 21:11:31 GMT+0200 (CEST)
 How convinient! This is a: 5, and this is c: 1,2
 ```
+
+##Comming soon
+* stderr support
